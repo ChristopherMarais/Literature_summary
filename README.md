@@ -14,10 +14,13 @@ Used the followign as a guides:
 4. Entity linking (Rebel*)
 5. Graph Creation
 
-# To do:
+# Graphs:
 - Graph of entities in field (nodes = entities, relationships = in text relations, metadata=relation strength == mention count)
-- Graph of articles and people in field (nodes=[papers, people], relationships = citations, metadata=date)
-- Topics and keywords in field over time (timeseries)(phronesis, lime, bert-package-summary)
+- Graph of articles and people in field (nodes=[papers, people], relationships = citations, metadata=date, node weight = reference count)
+- keyword Graph (nodes=[keywords, topics], relationships = freqeuncy of nodes found in same paper, node weight = reference count)
+
+# Timeseries:
+- All graphs, but over time(phronesis, lime, bert-package-summary)
 
 #### Install packages in following order:
 - pip install pandas
@@ -29,3 +32,5 @@ Used the followign as a guides:
 - pip uninstall torch
 - conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge
 - pip install spacyfishing
+- pip install matplotlib
+- Add rebel component https://github.com/Babelscape/rebel/blob/main/spacy_component.py
