@@ -34,3 +34,6 @@ Used the followign as a guides:
 - pip install spacyfishing
 - pip install matplotlib
 - Add rebel component https://github.com/Babelscape/rebel/blob/main/spacy_component.py
+
+- pip install wikipedia
+- pip install neo4j
