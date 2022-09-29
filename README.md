@@ -20,12 +20,12 @@ Used the followign as a guides:
 - Topics and keywords in field over time (timeseries)(phronesis, lime, bert-package-summary)
 
 #### Install packages in following order:
-pip install pandas
-pip install spacy
-python -m spacy download en_core_web_trf
-python -m spacy download en_core_web_sm
-pip install crosslingual-coreference
-pip install ipywidgets
-pip uninstall torch
-conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge
-pip install spacyfishing
+- pip install pandas
+- pip install spacy
+- python -m spacy download en_core_web_trf
+- python -m spacy download en_core_web_sm
+- pip install crosslingual-coreference
+- pip install ipywidgets
+- pip uninstall torch
+- conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge
+- pip install spacyfishing
