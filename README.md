@@ -15,9 +15,13 @@ Used the followign as a guide https://towardsdatascience.com/from-text-to-knowle
 # graph of articles and people in field
 # topics and keywords in field over time (phronesis, lime, bert-package-summary)
 
-conda install -c conda-forge pandas
-pip install spacy
-pip install coreferee
-python -m coreferee install en
+#### for crosslingual-coreference:
 pip install pandas
+pip install spacy
 python -m spacy download en_core_web_trf
+python -m spacy download en_core_web_sm
+pip install crosslingual-coreference
+pip install ipywidgets
+pip uninstall torch
+conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge
+pip install spacyfishing
