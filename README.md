@@ -1,5 +1,5 @@
 # Literature_summary
-An attempt to make a knowledge graph from research papers.
+An attempt to summarize a filed of study through meta analysis.
 
 used Scopus from elsevier and downlaoded ~3700 abstracts about bark and abrosia beetles
 
