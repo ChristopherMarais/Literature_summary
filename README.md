@@ -51,3 +51,7 @@ Used the followign as a guides:
 #### Install packages in following order for graph construction:
 - networkx??
 - neo4j??
+
+__ itterate over topic mining and create topic ords for each itteration
+__ make networkx graphs from data
+__ port networkx graphs into neo4j
