@@ -17,10 +17,13 @@ Used the followign as a guides:
 # Graphs:
 - Graph of entities in field (nodes = entities, relationships = in text relations, metadata=relation strength == mention count)
 - Graph of articles and people in field (nodes=[papers, people], relationships = citations, metadata=date, node weight = reference count)
-- keyword Graph (nodes=[keywords, topics], relationships = freqeuncy of nodes found in same paper, node weight = reference count)
+- Graph of keywords and topics  (nodes=[keywords, topics], relationships = freqeuncy of nodes found in same paper, node weight = reference count)
 
 # Timeseries:
-- All graphs, but over time(phronesis, lime, bert-package-summary)
+- All graphs over time*
+- Topics over time (bertopic)
+
+# environments:
 
 #### Install packages in following order for entity edge list:
 - pip install pandas
@@ -44,3 +47,7 @@ Used the followign as a guides:
 - conda install -c conda-forge ipywidgets
 - conda install -c anaconda scikit-learn
 - pip install pandas
+
+#### Install packages in following order for graph construction:
+- networkx??
+- neo4j??
