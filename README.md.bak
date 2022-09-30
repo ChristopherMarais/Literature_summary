@@ -43,4 +43,3 @@ Used the followign as a guides:
 - pip install joblib==1.1.0
 - conda install -c conda-forge ipywidgets
 - conda install -c anaconda scikit-learn
-- pip install pandas
