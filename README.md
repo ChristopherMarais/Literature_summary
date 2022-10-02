@@ -7,7 +7,13 @@ Used the followign as a guides:
 - https://towardsdatascience.com/from-text-to-knowledge-the-information-extraction-pipeline-b65e7e30273e
 - https://towardsdatascience.com/extract-knowledge-from-text-end-to-end-information-extraction-pipeline-with-spacy-and-neo4j-502b2b1e0754
 
-# Steps
+# Steps:
+- Extract entities and relationships 
+- Extract topics
+- construct edgelsit of for topic and keyword relationships
+- 
+
+## Steps for entity extraction:
 1. coreference resolution (crosslingual-coreference)
 2. Named entity recognition (built in models)
 3. Entity labelling (spacyfishing)
