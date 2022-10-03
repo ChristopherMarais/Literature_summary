@@ -3,3 +3,5 @@ Entity_linking/models/crosslingual-coreference/minilm/model.tar.gz
 *.gz
 Graphs/co_ocurrence_matrix.csv
 Graphs/entity_weighted_edgelist.csv
+TPN/Bertopic/papers_bertopic.csv
+*.csv
