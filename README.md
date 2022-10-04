@@ -58,6 +58,5 @@ Used the followign as a guides:
 - networkx??
 - neo4j??
 
-__ itterate over topic mining and create topic ords for each itteration
-__ make networkx graphs from data
-__ port networkx graphs into neo4j
+- port networkx graphs into neo4j
+- add multigraph with wiki labels of entities
