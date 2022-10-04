@@ -60,3 +60,9 @@ Used the followign as a guides:
 
 - port networkx graphs into neo4j
 - add multigraph with wiki labels of entities
+- combine search results from multipel searches
+- enrich with other text
+- apply to SDG data
+- collapse terms with lemmatization
+- add papers that support each edge to graph
+- 
